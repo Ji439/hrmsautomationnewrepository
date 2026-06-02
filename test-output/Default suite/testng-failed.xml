@@ -3,20 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testsPackage.LoginTestCases">
+      <class name="testsPackage.LoginTest">
         <methods>
-          <include name="invalidUsername"/>
-          <include name="emptyFields"/>
-          <include name="invalidPasswordOnly"/>
-          <include name="onlyUsername"/>
-          <include name="onlyPassword"/>
-          <include name="validLogin"/>
-          <include name="invalidPassword"/>
-          <include name="invalidUsernameAndPassword"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="loginTest" invocation-numbers="0 1 2 3 4 5 6 7 8 9"/>
         </methods>
-      </class> <!-- testsPackage.LoginTestCases -->
+      </class> <!-- testsPackage.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
