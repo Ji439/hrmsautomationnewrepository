@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testsPackage.leavetestjava">
+      <class name="testsPackage.LoginTestCross">
         <methods>
-          <include name="setup"/>
-          <include name="verifyEndDateValidation"/>
-          <include name="verifyLeaveSubmission"/>
-          <include name="verifyNoteField"/>
+          <include name="verifyLogin"/>
           <include name="tearDown"/>
-          <include name="verifyResetButton"/>
-          <include name="verifyFileUpload"/>
-          <include name="verifyLeaveTypeDropdown"/>
-          <include name="verifyMandatoryValidation"/>
-          <include name="verifyDateSelection"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- testsPackage.leavetestjava -->
+      </class> <!-- testsPackage.LoginTestCross -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
