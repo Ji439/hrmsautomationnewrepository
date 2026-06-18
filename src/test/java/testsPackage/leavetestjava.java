@@ -202,12 +202,12 @@ public class leavetestjava {
 
 	    	    @Test(priority = 9)
 	    	    public void verifyLeaveSubmission() {
-
+                                                                                                                                            
 	    	        // Leave Type
 	    	        Select leaveType =
-	    	                new Select(driver.findElement(By.id("LeaveTypeId")));
+	    	                new Select(driver.findElement(By.id("\"select2-LeaveTypeDetailsId-container\"")));
 
-	    	        leaveType.selectByIndex(1);
+	    	        leaveType.selectByIndex(2);
 
 	    	        // Start Date
 	    	        driver.findElement(By.id("StartDate"))
